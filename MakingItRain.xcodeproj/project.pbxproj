@@ -11,6 +11,7 @@
 		1D710E862B8114CD009BCBE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D710E852B8114CD009BCBE0 /* ContentView.swift */; };
 		1D710E882B8114CF009BCBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D710E872B8114CF009BCBE0 /* Assets.xcassets */; };
 		1D710E8B2B8114CF009BCBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D710E8A2B8114CF009BCBE0 /* Preview Assets.xcassets */; };
+		1D710E922B8135BE009BCBE0 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D710E912B8135BE009BCBE0 /* ParticleSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1D710E852B8114CD009BCBE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D710E872B8114CF009BCBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D710E8A2B8114CF009BCBE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D710E912B8135BE009BCBE0 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1D710E832B8114CD009BCBE0 /* MakingItRainApp.swift */,
 				1D710E852B8114CD009BCBE0 /* ContentView.swift */,
+				1D710E912B8135BE009BCBE0 /* ParticleSystem.swift */,
 				1D710E872B8114CF009BCBE0 /* Assets.xcassets */,
 				1D710E892B8114CF009BCBE0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D710E922B8135BE009BCBE0 /* ParticleSystem.swift in Sources */,
 				1D710E862B8114CD009BCBE0 /* ContentView.swift in Sources */,
 				1D710E842B8114CD009BCBE0 /* MakingItRainApp.swift in Sources */,
 			);
