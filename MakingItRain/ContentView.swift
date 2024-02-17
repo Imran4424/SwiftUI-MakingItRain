@@ -12,10 +12,16 @@ struct ContentView: View {
         ParticleView(createSystem()) {
             Image(.circle)
                 .blendMode(.plusLighter)
-                .tag("unitView")
+                .tag("snow")
             Text("🦄")
                 .font(.system(size: 150))
                 .tag("unicorn")
+            Text("Soudha")
+                .font(.system(size: 150))
+                .tag("soudha")
+            Text("Imran")
+                .font(.system(size: 150))
+                .tag("imran")
         }
     }
 }
@@ -23,7 +29,7 @@ struct ContentView: View {
 extension ContentView {
     func createSystem() -> ParticleSystem {
         let system = ParticleSystem()
-        system.tags = ["unitView"]
+        system.tags = ["snow"]
         system.position = [0.5, 0]
         system.angle = .degrees(180)
         system.angleVary = .degrees(20)

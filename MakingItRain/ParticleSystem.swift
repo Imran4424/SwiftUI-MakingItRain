@@ -116,7 +116,7 @@ class ParticleSystem {
             
             copy.currentAngle += copy.spinSpeed * delta
             
-            if age >= copy.lifeSpan {
+            if age >= copy.lifeSpan * 2 {
                 return nil
             } else {
                 return copy
