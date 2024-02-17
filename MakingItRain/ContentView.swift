@@ -31,16 +31,16 @@ extension ContentView {
         let system = ParticleSystem()
         system.tags = ["snow"]
         system.position = [0.5, 0]
-        system.angle = .degrees(180)
+        system.angle = .degrees(190)
         system.angleVary = .degrees(20)
         system.shape = .box(width: 1, height: 0)
         system.color = .green
         system.speed = 0.2
         system.speedVary = 0.4
-        system.acceleration = [0, 1]
-        system.size = 0.5
-        system.sizeVary = 1
-        system.sizeAtDeath = 0
+        system.acceleration = [0, 2]
+        system.size = 0.09
+        system.sizeVary = 0.05
+        system.sizeAtDeath = 1
         
         return system
     }
